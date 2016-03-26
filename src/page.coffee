@@ -9,7 +9,7 @@ module.exports = class Page
   constructor: (@el, @module)->
 
   # Load everything associated with this page
-  load: (opts = {})->
+  load: (@opts = {})->
 
   # Render this page
   render: ()->

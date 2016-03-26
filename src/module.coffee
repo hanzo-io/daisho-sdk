@@ -5,7 +5,7 @@ module.exports = class Module
   constructor: ()->
 
   # Load everything associated with this module
-  load: ()->
+  load: (@opts = {})->
 
   # Unload everything associated with this module
   unload: ()->
